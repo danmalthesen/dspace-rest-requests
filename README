@@ -22,3 +22,7 @@ PUT   /items/{item id}/metadata ----------------> PUT_edit-items-metadata.sh [JS
 POST  /bitstreams/{bitstream id}/policy
 PUT   /bitstreams/{bitstream id}/data ----------> UPLOAD_edit-bitstreams.sh
 PUT   /bitstreams/{bitstream id} ---------------> PUT_edit-bitstreams.sh
+
+GET   /status ----------------------------------> GET_status.sh
+GET   /handle/{handle-prefix}/{handle-suffix} --> GET_0_handle.sh
+
