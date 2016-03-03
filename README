@@ -13,6 +13,7 @@ PUT   /communities/{communityId} ---------------> PUT_edit-communities.sh
 POST  /collections/{collectionId}/items ------- > POST_new-items.sh
 POST  /collections/find-collection
 PUT   /collections/{collectionId} --------------> PUT_edit-collections.sh
+PUT   /collections/{collectionId}/items --------> PUT_edit-collections-add-item.sh
 
 POST  /items/find-by-metadata-field
 POST  /items/{item id}/bitstreams --------------> UPLOAD_new-bitstreams.sh
